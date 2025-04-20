@@ -1,22 +1,33 @@
 // import { signIn } from "next-auth/react";
 // import { useContext } from "react";
+import { useContext } from "react";
 import { FcGoogle } from "react-icons/fc";
-// import { AuthContext } from "../Provider/AuthProvider";
+import { AuthContext } from "../../Provider/AuthProvider";
+// eslint-disable-next-line no-unused-vars
+import { replace, useLocation, useNavigate } from "react-router-dom";
 
 export default function LoginForm() {
-//   const { signInWithGoogle } = useContext(AuthContext)
+  const navigate = useNavigate();
+  const location = useLocation();
+  const { signInWithGoogle } = useContext(AuthContext)
+
+  const from = location?.state?.from?.pathname  || '/'
+  console.log(from, navigate);
+  
   const handleLoginForm = (e) => {
         console.log(e); 
   }
   const handleGoogleSignIn = async () => {
-    // try {
-    //   await signInWithGoogle()
-
-    //   // toast.success('Signin Successful')
-    // } catch (err) {
-    //   console.log(err)
-    //   // toast.error(err?.message)
-    // }
+    try {
+      await signInWithGoogle()
+       alert('Signin Successful')
+       navigate(from, {replace : true})
+      // toast.success('Signin Successful')
+    } catch (err) {
+      console.log(err)
+      // toast.error(err?.message)
+      alert('Error Occ')
+    }
   }
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100">
@@ -24,8 +35,7 @@ export default function LoginForm() {
         <h2 className="text-2xl font-semibold text-center mb-6">Welcome back!</h2>
         
         <button
-        //   onClick={() => signIn("google")}
-        onClick={handleGoogleSignIn}
+          onClick={handleGoogleSignIn}
           className="w-full flex items-center justify-center border rounded-lg p-2 mb-4 gap-2 text-gray-600 hover:bg-gray-100"
         >
           {/* <img src="/google-logo.png" alt="Google" className="w-5 h-5 mr-2" /> */}

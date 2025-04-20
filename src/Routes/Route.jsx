@@ -4,6 +4,7 @@ import {
 import Roots from "../Roots/Roots";
 import Home from "../Pages/Home/Home";
 import LoginForm from "../Pages/signIn/LoginForm";
+import AvailableRoom from "../Pages/AvailableRoom/AvailableRoom";
 
   const router = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ import LoginForm from "../Pages/signIn/LoginForm";
           path: "/sign-in",
           element:<LoginForm/>,
         },
+        {
+          path : "/available-room",
+          element : <AvailableRoom/>
+        }
       ],
     },
   ]);

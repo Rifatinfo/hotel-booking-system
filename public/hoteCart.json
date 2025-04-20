@@ -1,0 +1,129 @@
+[
+    {
+      "id": 1,
+      "name": "Sea Breeze Resort",
+      "location": "Miami Beach, FL",
+      "description": "Relax by the sea with stunning ocean views and luxury amenities.",
+      "price": 199,
+      "rating": 4.7,
+      "image": "https://source.unsplash.com/featured/?beach,resort"
+    },
+    {
+      "id": 2,
+      "name": "Mountain View Inn",
+      "location": "Aspen, CO",
+      "description": "A cozy retreat in the mountains with fireplace rooms and skiing nearby.",
+      "price": 229,
+      "rating": 4.8,
+      "image": "https://source.unsplash.com/featured/?mountain,resort"
+    },
+    {
+      "id": 3,
+      "name": "Urban Luxury Suites",
+      "location": "New York, NY",
+      "description": "Modern luxury right in the heart of Manhattan.",
+      "price": 349,
+      "rating": 4.6,
+      "image": "https://source.unsplash.com/featured/?city,hotel"
+    },
+    {
+      "id": 4,
+      "name": "Desert Mirage Hotel",
+      "location": "Phoenix, AZ",
+      "description": "Experience tranquility in the desert with our top-class service.",
+      "price": 179,
+      "rating": 4.5,
+      "image": "https://source.unsplash.com/featured/?desert,hotel"
+    },
+    {
+      "id": 5,
+      "name": "Lakeside Retreat",
+      "location": "Lake Tahoe, CA",
+      "description": "Peaceful escape with scenic lake views and cozy accommodations.",
+      "price": 209,
+      "rating": 4.9,
+      "image": "https://source.unsplash.com/featured/?lake,hotel"
+    },
+    {
+      "id": 6,
+      "name": "Tropical Paradise",
+      "location": "Honolulu, HI",
+      "description": "Beachfront resort with palm trees, cocktails, and sunshine.",
+      "price": 289,
+      "rating": 4.8,
+      "image": "https://source.unsplash.com/featured/?hawaii,resort"
+    },
+    {
+      "id": 7,
+      "name": "Vintage Manor",
+      "location": "Savannah, GA",
+      "description": "Old-world charm meets Southern hospitality.",
+      "price": 159,
+      "rating": 4.4,
+      "image": "https://source.unsplash.com/featured/?vintage,hotel"
+    },
+    {
+      "id": 8,
+      "name": "Forest Haven Lodge",
+      "location": "Portland, OR",
+      "description": "Stay among the trees with modern comfort and peace.",
+      "price": 189,
+      "rating": 4.6,
+      "image": "https://source.unsplash.com/featured/?forest,resort"
+    },
+    {
+      "id": 9,
+      "name": "Sunset View Hotel",
+      "location": "San Diego, CA",
+      "description": "Unwind with beautiful ocean sunsets and vibrant nightlife nearby.",
+      "price": 219,
+      "rating": 4.5,
+      "image": "https://source.unsplash.com/featured/?sunset,hotel"
+    },
+    {
+      "id": 10,
+      "name": "Snowfall Chalet",
+      "location": "Vail, CO",
+      "description": "Charming winter chalet ideal for skiing and hot cocoa by the fire.",
+      "price": 239,
+      "rating": 4.7,
+      "image": "https://source.unsplash.com/featured/?snow,resort"
+    },
+    {
+      "id": 11,
+      "name": "Harborfront Inn",
+      "location": "Boston, MA",
+      "description": "Elegant stay by the harbor with walkable access to historic sites.",
+      "price": 199,
+      "rating": 4.3,
+      "image": "https://source.unsplash.com/featured/?harbor,hotel"
+    },
+    {
+      "id": 12,
+      "name": "City Central Hotel",
+      "location": "Chicago, IL",
+      "description": "Business and leisure meet in this stylish downtown hotel.",
+      "price": 189,
+      "rating": 4.5,
+      "image": "https://source.unsplash.com/featured/?chicago,hotel"
+    },
+    {
+      "id": 13,
+      "name": "Cozy Cliff Resort",
+      "location": "Big Sur, CA",
+      "description": "Dramatic cliffside views and rustic luxury in nature’s lap.",
+      "price": 279,
+      "rating": 4.9,
+      "image": "https://source.unsplash.com/featured/?cliff,hotel"
+    },
+    {
+      "id": 14,
+      "name": "Garden Blossom Hotel",
+      "location": "Charleston, SC",
+      "description": "Stay surrounded by blooming gardens and southern elegance.",
+      "price": 169,
+      "rating": 4.6,
+      "image": "https://source.unsplash.com/featured/?garden,hotel"
+    }
+  ]
+  

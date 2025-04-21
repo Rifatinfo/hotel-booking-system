@@ -12,7 +12,7 @@ export default function LoginForm() {
   const { signInWithGoogle } = useContext(AuthContext)
 
   const from = location?.state?.from?.pathname  || '/'
-  console.log(from, navigate);
+  console.log(location.state, navigate);
   
   const handleLoginForm = (e) => {
         console.log(e); 

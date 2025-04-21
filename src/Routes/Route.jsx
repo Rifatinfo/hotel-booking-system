@@ -5,6 +5,8 @@ import Roots from "../Roots/Roots";
 import Home from "../Pages/Home/Home";
 import LoginForm from "../Pages/signIn/LoginForm";
 import AvailableRoom from "../Pages/AvailableRoom/AvailableRoom";
+import DashBoard from "../Pages/DashBoard/DashBoard";
+import Cart from "../Pages/Cart/Cart";
 
   const router = createBrowserRouter([
     {
@@ -25,5 +27,15 @@ import AvailableRoom from "../Pages/AvailableRoom/AvailableRoom";
         }
       ],
     },
+    {
+      path : 'dashboard',
+      element : <DashBoard/>,
+      children: [
+        {
+          path: "cart",
+          element: <Cart/>,
+        }
+      ]
+    }
   ]);
   export default router

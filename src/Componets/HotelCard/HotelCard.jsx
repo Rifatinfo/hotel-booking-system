@@ -53,7 +53,7 @@ const HotelCard = ({ hotel }) => {
   }
   return (
     <div className="max-w-sm  rounded-2xl overflow-hidden shadow-lg bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700">
-      <img className="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHx8fDA%3D" alt={hotel.name} />
+      <img className="w-full h-48 object-cover" src={hotel.image} alt={hotel.name} />
       <div className="p-5">
         <h2 className="text-xl font-semibold text-gray-800 dark:text-white">{hotel.name}</h2>
         <p className="text-sm text-gray-500 dark:text-gray-400">{hotel.location}</p>

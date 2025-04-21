@@ -15,7 +15,7 @@
       "description": "A cozy retreat in the mountains with fireplace rooms and skiing nearby.",
       "price": 229,
       "rating": 4.8,
-      "image": "https://source.unsplash.com/featured/?mountain,resort"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlvA-SOzwVbGQzifT2TG1AYzwycCo0B3feEw&s"
     },
     {
       
@@ -24,7 +24,7 @@
       "description": "Modern luxury right in the heart of Manhattan.",
       "price": 349,
       "rating": 4.6,
-      "image": "https://source.unsplash.com/featured/?city,hotel"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1k6CkZKyp9Teg64P4Fs-w4Cy2NaCzJ1ppjw&s"
     },
     {
       
@@ -33,7 +33,7 @@
       "description": "Experience tranquility in the desert with our top-class service.",
       "price": 179,
       "rating": 4.5,
-      "image": "https://source.unsplash.com/featured/?desert,hotel"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvkZ5uLeTTnIi6Da2cjeRrvG50L1s8MJeehg&s"
     },
     {
       
@@ -42,7 +42,7 @@
       "description": "Peaceful escape with scenic lake views and cozy accommodations.",
       "price": 209,
       "rating": 4.9,
-      "image": "https://source.unsplash.com/featured/?lake,hotel"
+      "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjByb29tfGVufDB8fDB8fHww"
     },
     {
       
@@ -51,7 +51,7 @@
       "description": "Beachfront resort with palm trees, cocktails, and sunshine.",
       "price": 289,
       "rating": 4.8,
-      "image": "https://source.unsplash.com/featured/?hawaii,resort"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVa7D7ZUMzWSAk7EF6261hii9ubK0FF56fQ&s"
     },
     {
       
@@ -60,7 +60,7 @@
       "description": "Old-world charm meets Southern hospitality.",
       "price": 159,
       "rating": 4.4,
-      "image": "https://source.unsplash.com/featured/?vintage,hotel"
+      "image": "https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg?semt=ais_hybrid&w=740"
     },
     {
       
@@ -69,7 +69,7 @@
       "description": "Stay among the trees with modern comfort and peace.",
       "price": 189,
       "rating": 4.6,
-      "image": "https://source.unsplash.com/featured/?forest,resort"
+      "image": "https://media.istockphoto.com/id/627892060/photo/hotel-room-suite-with-view.jpg?s=612x612&w=0&k=20&c=YBwxnGH3MkOLLpBKCvWAD8F__T-ypznRUJ_N13Zb1cU="
     },
     {
       
@@ -78,7 +78,7 @@
       "description": "Unwind with beautiful ocean sunsets and vibrant nightlife nearby.",
       "price": 219,
       "rating": 4.5,
-      "image": "https://source.unsplash.com/featured/?sunset,hotel"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLQluk3ng7eE5QEJgX9BG2zwnAnptNgoRyrA&usqp=CAU"
     },
     {
       
@@ -87,7 +87,7 @@
       "description": "Charming winter chalet ideal for skiing and hot cocoa by the fire.",
       "price": 239,
       "rating": 4.7,
-      "image": "https://source.unsplash.com/featured/?snow,resort"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtK1qL2EF9qaUKQQJjgHFc_zZL7DNAgECxhg&usqp=CAU"
     },
     {
       
@@ -96,7 +96,7 @@
       "description": "Elegant stay by the harbor with walkable access to historic sites.",
       "price": 199,
       "rating": 4.3,
-      "image": "https://source.unsplash.com/featured/?harbor,hotel"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXGfb3ctn0RMT-Zn8t0-dMMByfdKxk48POpA&usqp=CAU"
     },
     {
       
@@ -105,7 +105,7 @@
       "description": "Business and leisure meet in this stylish downtown hotel.",
       "price": 189,
       "rating": 4.5,
-      "image": "https://source.unsplash.com/featured/?chicago,hotel"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPJ9rk9VSVGTaIaW96Icpfl3UozDD4wDsmlQ&usqp=CAU"
     },
     {
       
@@ -114,7 +114,7 @@
       "description": "Dramatic cliffside views and rustic luxury in nature’s lap.",
       "price": 279,
       "rating": 4.9,
-      "image": "https://source.unsplash.com/featured/?cliff,hotel"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbBIfEn6WH8VdKWGPrlajoydjrGs2VHYfuqQ&usqp=CAU"
     },
     {
       
@@ -123,7 +123,7 @@
       "description": "Stay surrounded by blooming gardens and southern elegance.",
       "price": 169,
       "rating": 4.6,
-      "image": "https://source.unsplash.com/featured/?garden,hotel"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYcuNZkH-dYP4nenBb7oAgeun7XSYBVtZXcQ&usqp=CAU"
     }
   ]
   

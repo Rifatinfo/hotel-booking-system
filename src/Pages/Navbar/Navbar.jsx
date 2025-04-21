@@ -18,41 +18,42 @@ const Navbar = () => {
                         {/* Logo */}
                         <div>
                             {/* <Link to="/"><img className="w-full h-[32px]" src={logo} /></Link> */}
-                            <Link to="/"><p className="text-2xl font-bold">TICKET BOOKING</p></Link>
+                            <Link to="/"><p className="text-2xl font-bold text-[#C73450]">TICKET BOOKING</p></Link>
                         </div>
 
                         {/* Desktop Menu */}
-                        <ul className="hidden text-lg md:flex items-center space-x-6  font-medium text-[#C73450] ">
-                            <li onClick={() => { setOpen(false) }} className="cursor-pointer transition-colors duration-300" >Home</li>
+                        <ul className="hidden text-lg md:flex items-center space-x-6  font-medium text-[#C73450]">
+                          <Link to="/">  <li onClick={() => { setOpen(false) }} className="cursor-pointer transition-colors duration-300" >Home</li></Link>
                             <Link to="/available-room"> <li onClick={() => { setOpen(false) }} className="cursor-pointer transition-colors duration-300" >Available Room</li></Link>
-                            <li onClick={() => { setOpen(false) }} className="cursor-pointer transition-colors duration-300" >My Booking
-                            </li>
+                            
 
                         </ul>
 
                         <div className="md:flex md:items-center md:gap-2">
                             {/* shopping cart  */}
-                            <div className="flex-none">
-                                <div className="dropdown dropdown-end">
-                                    <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
-                                        <div className="indicator">
-                                            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /> </svg>
-                                            <span className="badge badge-md indicator-item text-red-600">{cart.length}</span>
+                            <Link to="/dashboard/cart">
+                                <div className="flex-none">
+                                    <div className="dropdown dropdown-end">
+                                        <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
+                                            <div className="indicator">
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /> </svg>
+                                                <span className="badge badge-md indicator-item text-red-600">{cart.length}</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div
-                                        tabIndex={0}
-                                        className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow">
-                                        <div className="card-body">
-                                            <span className="text-lg font-bold">{cart.length} Items</span>
-                                            <span className="text-info">Subtotal: $999</span>
-                                            <div className="card-actions">
-                                                <button className="btn btn-primary btn-block">View cart</button>
+                                        <div
+                                            tabIndex={0}
+                                            className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow">
+                                            <div className="card-body">
+                                                <span className="text-lg font-bold">{cart.length} Items</span>
+                                                <span className="text-info">Subtotal: $999</span>
+                                                <div className="card-actions">
+                                                    <button className="btn btn-primary btn-block">View cart</button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </Link>
 
                             <div className="hidden md:flex items-center gap-6 ">
                                 <Button />
@@ -82,9 +83,8 @@ const Navbar = () => {
                         />
                     </div>
                     <ul className="flex flex-col items-center space-y-4 pt-10 text-gray-700 font-medium">
-                        <li onClick={() => { setOpen(false) }} className="cursor-pointer transition-colors duration-300" >Home</li>
+                        <Link to="/"><li onClick={() => { setOpen(false) }} className="cursor-pointer transition-colors duration-300" >Home</li></Link>
                         <li onClick={() => { setOpen(false) }} className="cursor-pointer transition-colors duration-300" >Available Room</li>
-                        <li onClick={() => { setOpen(false) }} className="cursor-pointer transition-colors duration-300" >My Booking</li>
                         <div>
                             <Button></Button>
                         </div>

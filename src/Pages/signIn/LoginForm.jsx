@@ -5,6 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 import { AuthContext } from "../../Provider/AuthProvider";
 // eslint-disable-next-line no-unused-vars
 import { replace, useLocation, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 export default function LoginForm() {
   const navigate = useNavigate();
@@ -20,13 +21,22 @@ export default function LoginForm() {
   const handleGoogleSignIn = async () => {
     try {
       await signInWithGoogle()
-       alert('Signin Successful')
+       
+       Swal.fire({
+        title: "Signin Successful!",
+        icon: "success",
+        draggable: true
+      });
        navigate(from, {replace : true})
       // toast.success('Signin Successful')
     } catch (err) {
       console.log(err)
       // toast.error(err?.message)
-      alert('Error Occ')
+      Swal.fire({
+        title: "Error Occ!",
+        icon: "error",
+        draggable: true
+      });
     }
   }
   return (
